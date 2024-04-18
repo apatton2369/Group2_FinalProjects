@@ -8,8 +8,22 @@
 <head runat="server">
     <title>LeetCode Problems List</title>
     <style>
-        .problem-details {
+        .problem-details{
             display: none;
+        }
+        .paragraph-gap{
+            margin-bottom: 18px;
+        }
+        .dot{
+            font-size: 18px;
+            color: #000;
+            display:inline-block;
+            width:5px;
+            height:5px;
+            border-radius: 50%;
+            background-color: #000;
+            margin-right: 6px;
+            vertical-align: middle;
         }
     </style>
 </head>
@@ -24,49 +38,13 @@
             </asp:ListBox>
             <br />
             <asp:Button ID="btnConfirm" runat="server" Text="Confirm Problem" OnClick="btnConfirm_Click" />
-            <div class="problem-details" id="problemDetailsContainer">
+            <div class="problem-details" id="problemDetailsContainer" runat="server">
                 <h2 id="lblProblemTitle" runat="server"></h2>
                 <p id="lblProblemDescription" runat="server"></p>
-                <p id="lblTestCase" runat="server"></p>
+                <p id="lblProblemConstraints" runat="server"></p>
+                <p id="lblSolution" runat="server"></p>
             </div>
         </div>
     </form>
-    <script>
-        function ShowProblemDetails(problemId) {
-            document.getElementById('problemDetailsContainer').style.display = 'block';
-            // You can use AJAX to fetch problem details dynamically or use hidden fields to store them
-            // For simplicity, let's assume you have JavaScript variables for problem details
-            var problemDetails = GetProblemDetailsById(problemId);
-            document.getElementById('lblProblemTitle').innerText = problemDetails.Title;
-            document.getElementById('lblProblemDescription').innerText = problemDetails.Description;
-            document.getElementById('lblTestCase').innerText = problemDetails.TestCase;
-            document.getElementById('btnConfirm').setAttribute('data-problem-id', problemId);
-        }
-
-        // Function to simulate getting problem details by ID
-        function GetProblemDetailsById(problemId) {
-            // This is just a dummy function, in real application, you may fetch data from server using AJAX
-            if (problemId === 1) {
-                return {
-                    Title: 'Two Sum',
-                    Description: 'Given an array of integers, return indices of the two numbers such that they add up to a specific target.',
-                    TestCase: 'Input: [2, 7, 11, 15], Target: 9, Output: [0, 1]'
-                };
-            } else if (problemId === 2) {
-                return {
-                    Title: 'Add Two Numbers',
-                    Description: 'You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit.',
-                    TestCase: 'Input: (2 -> 4 -> 3) + (5 -> 6 -> 4), Output: 7 -> 0 -> 8'
-                };
-            } else if (problemId === 3) {
-                return {
-                    Title: 'Reverse Integer',
-                    Description: 'Given a 32-bit signed integer, reverse digits of an integer.',
-                    TestCase: 'Input: 123, Output: 321'
-                };
-            }
-            // Add more cases as needed
-        }
-    </script>
 </body>
 </html>

@@ -42,6 +42,15 @@ namespace Group2_FinalProject
         protected global::System.Web.UI.WebControls.Button btnConfirm;
 
         /// <summary>
+        /// problemDetailsContainer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl problemDetailsContainer;
+
+        /// <summary>
         /// lblProblemTitle control.
         /// </summary>
         /// <remarks>
@@ -60,12 +69,21 @@ namespace Group2_FinalProject
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblProblemDescription;
 
         /// <summary>
-        /// lblTestCase control.
+        /// lblProblemConstraints control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblTestCase;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblProblemConstraints;
+
+        /// <summary>
+        /// lblSolution control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblSolution;
     }
 }
