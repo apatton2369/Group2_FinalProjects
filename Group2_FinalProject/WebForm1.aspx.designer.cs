@@ -11,7 +11,7 @@ namespace Group2_FinalProject
 {
 
 
-    public partial class _default
+    public partial class WebForm1
     {
 
         /// <summary>
@@ -22,15 +22,6 @@ namespace Group2_FinalProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// lstProblems control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListBox lstProblems;
 
         /// <summary>
         /// btnConfirm control.
