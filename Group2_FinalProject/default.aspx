@@ -31,18 +31,25 @@
     <form id="form1" runat="server">
         <div>
             <h1>LeetCode Problems List</h1>
-            <asp:ListBox ID="lstProblems" runat="server" SelectionMode="Single">
-                <asp:ListItem Text="Two Sum" Value="1"></asp:ListItem>
-                <asp:ListItem Text="Add Two Numbers" Value="2"></asp:ListItem>
-                <asp:ListItem Text="Reverse Integer" Value="3"></asp:ListItem>
-            </asp:ListBox>
+            <div>
+                <input type="radio" id="rdoProblem1" name="problem" value="1" />
+                <label for="rdoProblem1">Number Complement</label>
+            </div>
+            <div>
+                <input type="radio" id="rdoProblem2" name="problem" value="2" />
+                <label for="rdoProblem2">My Calendar 1</label>
+            </div>
+            <div>
+                <input type="radio" id="rdoProblem3" name="problem" value="3" />
+                <label for="rdoProblem3">Tallest Billboard</label>
+            </div>
             <br />
-            <asp:Button ID="btnConfirm" runat="server" Text="Confirm Problem" OnClick="btnConfirm_Click" />
-            <div class="problem-details" id="problemDetailsContainer" runat="server">
-                <h2 id="lblProblemTitle" runat="server"></h2>
-                <p id="lblProblemDescription" runat="server"></p>
-                <p id="lblProblemConstraints" runat="server"></p>
-                <p id="lblSolution" runat="server"></p>
+            <asp:Button ID="Button2" runat="server" Text="Confirm Problem" OnClick="btnConfirm_Click" />
+            <div class="problem-details" id="Div2" runat="server">
+                <h2 id="H2" runat="server"></h2>
+                <p id="P4" runat="server"></p>
+                <p id="P5" runat="server"></p>
+                <p id="P6" runat="server"></p>
             </div>
         </div>
     </form>
