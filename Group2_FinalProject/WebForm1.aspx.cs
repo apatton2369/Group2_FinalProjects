@@ -1,4 +1,14 @@
-﻿using System;
+﻿// Name: Kazuhide Watanabe, Alex Patton, Alivia Contini
+// email: watanake@mail.uc.edu, pattona6@mail.uc.edu, continam@mail.uc.edu
+// Assignment Title: Final Project
+// Due Date: 04/23
+// Course: IS 3050
+// Semester/Year: Spring/2024
+// Brief Description: This is the server-side code that manages the functionality of the asp.net web form page, including handling user interactions, displaying problem details, invoking solutions, and presenting the solution results.  
+// Citations: Chatgpt
+// Anything else that's relevant: We learned how to add different html styling such as the indents and dots we created in the CSS styling. 
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

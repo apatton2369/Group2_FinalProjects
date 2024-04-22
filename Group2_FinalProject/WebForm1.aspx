@@ -1,4 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Group2_FinalProject.WebForm1" %>
+﻿<!--
+# Name: Kazuhide Watanabe, Alex Patton, Alivia Contini
+# email: watanake@mail.uc.edu, pattona6@mail.uc.edu, continam@mail.uc.edu
+# Assignment Title: Final Project
+# Due Date: 04/23
+# Course: IS 3050
+# Semester/Year: Spring/2024
+# Brief Description: This is the client-side code that provides a user interface for selecting a LeetCode problem and displaying its details when confirmed. 
+# Citations: Chatgpt
+# Anything else that's relevant: Something interesting we learned to incorporated was some CSS code to make a bullet point (.dot). 
+-->
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Group2_FinalProject.WebForm1" %>
 
 <!DOCTYPE html>
 
