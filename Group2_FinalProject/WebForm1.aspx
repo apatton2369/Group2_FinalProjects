@@ -10,7 +10,7 @@
 # Anything else that's relevant: Something interesting we learned to incorporated was some CSS code to make a bullet point (.dot). 
 -->
 
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Group2_FinalProject.WebForm1" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="Group2_FinalProject.WebForm1" %>
 
 <!DOCTYPE html>
 
